@@ -2,8 +2,10 @@
 <!DOCTYPE .html>
 <html>
   <head>
+
     <title>Word galaxy</title>
 <!--https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById -->
+<link rel="stylesheet" type="text/css" href="styles.css">
     <style type="text/css">
       p {
         font-size: 1.05em;
@@ -21,7 +23,7 @@
       border-radius: 20px;
     }
     .button2 {
-      background-color: purple;
+      background-color: #FFE1FF;
       border: none;
       color: white;
       padding: 5px 32px;
@@ -120,9 +122,21 @@
     </script>
   </head>
   <body>
+
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="vocab.html">vocabulary</a>
+      <a href="gallery.html">gallery</a>
+      <a href="brandon.html">birthday</a>
+      <a href="favoriteAnimal.html">Fav Animals</a>
+      <a href="about.html">About</a> 
+      <a href="resources.html">Resources</a>
+      <a class="active" href="wordgalaxy.html">Word Galaxy</a>
+    </div>
+
     <h1>Word galaxy</h1>
     <button onclick="changeColor1('pink');" class="button1">pink</button>
-    <button onclick="changeColor2('purple');" class="button2">purple</button>
+    <button onclick="changeColor2('#FFE1FF');" class="button2">purple</button>
     <button onclick="changeColor3('silver');" class="button3">silver</button>
     <button onclick="changeColor4('gold');" class="button4">gold</button>
     <button onclick="changeColor5('blue');" class="button5">blue</button>

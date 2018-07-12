@@ -4,6 +4,10 @@ h1 {
 body {
     background-color: purple;
 }
+span.vocab {
+  font-size: 1.5em;
+  color: red;
+}
 .topnav {
   overflow: hidden;
   background-color: #00BFFF;
